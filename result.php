@@ -1,4 +1,11 @@
 <?php
+/*
+ * File-name : Project-PHP/result.php
+ * Created at : 06/02/2023
+ * @detail : this is a result.php file responsibel for showing the resuts when you end the test.
+ * Last Updated by : Dravinanshu Mishra <dravinanshu.mishra@ucertify.com>
+ * last Updated Date : 06/02/2023
+ */
 session_start();
 if(!isset($_SESSION['Attempted'])){
     header("location: index.php");

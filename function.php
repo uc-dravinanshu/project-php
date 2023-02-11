@@ -1,4 +1,11 @@
 <?php
+/*
+ * File-name : Project-PHP/function.php
+ * Created at : 06/02/2023
+ * @detail : this is a function.php file responsibel for all functions which is directaly taking date with my-question.json file.
+ * Last Updated by : Dravinanshu Mishra <dravinanshu.mishra@ucertify.com>
+ * last Updated Date : 06/02/2023
+ */
  //session_start();
 //get first question function.
 function get_first_question() {

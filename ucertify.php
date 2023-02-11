@@ -1,4 +1,11 @@
 <?php
+/*
+ * File-name : Project-PHP/ucertify.php
+ * Created at : 06/02/2023
+ * @detail : this is an ucertify file responsibel for next previous data and timer.
+ * Last Updated by : Dravinanshu Mishra <dravinanshu.mishra@ucertify.com>
+ * last Updated Date : 06/02/2023
+ */
   session_start();
   require_once("./smarty/libs/Smarty.class.php");
   $smarty = new Smarty;
@@ -364,10 +371,5 @@
              $("#remening-question").html(total_question-data);
            }
        });
-    });
-    
-   
-  
-
-  
+    }); 
 </script>
